@@ -1,7 +1,7 @@
 ---
 layout: "layouts/home.njk"
-title: Simple Blog
-postsHeading: Latest posts
+title: 🤠howdy-stranger!
+postsHeading: latest-posts
 allPostsText: See all posts
 socialImage: ""
 ---

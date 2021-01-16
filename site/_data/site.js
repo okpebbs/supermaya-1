@@ -1,8 +1,8 @@
 module.exports = {
-  name: "Supermaya",
+  name: "okpebbs",
   shortDesc:
     "An 11ty starter kit designed to help you add rich features to a site without a complicated build process.",
-  url: "",
+  url: "okpebbs.com",
   authorEmail: "mike@madebymike.com.au",
   authorHandle: "@MikeRiethmuller",
   authorName: "Mike",
@@ -10,7 +10,7 @@ module.exports = {
   socialImage: "/img/social.jpg",
   theme: {
     primary: {
-      background: "white",
+      background: "pink",
       text: "black",
       highlight: "#666",
     },
@@ -22,10 +22,10 @@ module.exports = {
   },
 
   keystone: {
-    comments: true,
-    bookmarks: true,
-    claps: true,
-    login: true,
+    comments: false,
+    bookmarks: false,
+    claps: false,
+    login: false,
   },
   // Critical CSS results in much slower build times and uses a lot of system resources
   // turn on in production :)

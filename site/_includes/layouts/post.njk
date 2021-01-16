@@ -1,6 +1,6 @@
 {% extends 'layouts/base.njk' %}
 
-{% set authorName = author if author else 
+{% set authorName = author if author else
   site.authorName %}
 {% set introSummary %}
 <div class="l-stack">
@@ -44,14 +44,12 @@
             </ul>
           {% endif %}
           <div class="l-stack">
-            {% include "partials/services/keystone-claps.njk" %}
-            {% include "partials/services/keystone-bookmarks.njk" %}
           </div>
         </footer>
       </div>
     </div>
     <div class="l-container l-measure">
-      {% include "partials/services/keystone-comments.njk" %}
+
     </div>
   </div>
 {% endblock %}
